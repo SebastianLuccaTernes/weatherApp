@@ -11,6 +11,7 @@
 		3854A01D2B7657450011D304 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3854A01C2B7657450011D304 /* ContentView.swift */; };
 		3854A01F2B7657460011D304 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3854A01E2B7657460011D304 /* Assets.xcassets */; };
 		3854A0232B7657460011D304 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3854A0222B7657460011D304 /* Preview Assets.xcassets */; };
+		3854A02A2B77D5520011D304 /* wheather button.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3854A0292B77D5520011D304 /* wheather button.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +21,7 @@
 		3854A01E2B7657460011D304 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3854A0202B7657460011D304 /* Weather_Ui_Test.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Weather_Ui_Test.entitlements; sourceTree = "<group>"; };
 		3854A0222B7657460011D304 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		3854A0292B77D5520011D304 /* wheather button.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "wheather button.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 			children = (
 				3854A01A2B7657450011D304 /* Weather_Ui_TestApp.swift */,
 				3854A01C2B7657450011D304 /* ContentView.swift */,
+				3854A0292B77D5520011D304 /* wheather button.swift */,
 				3854A01E2B7657460011D304 /* Assets.xcassets */,
 				3854A0202B7657460011D304 /* Weather_Ui_Test.entitlements */,
 				3854A0212B7657460011D304 /* Preview Content */,
@@ -139,6 +142,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3854A02A2B77D5520011D304 /* wheather button.swift in Sources */,
 				3854A01D2B7657450011D304 /* ContentView.swift in Sources */,
 				3854A01B2B7657450011D304 /* Weather_Ui_TestApp.swift in Sources */,
 			);
@@ -289,7 +293,7 @@
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 14.1;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "ternes.info.Weather-Ui-Test";
+				PRODUCT_BUNDLE_IDENTIFIER = info.ternes.weatherUI;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
@@ -327,7 +331,7 @@
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 14.1;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "ternes.info.Weather-Ui-Test";
+				PRODUCT_BUNDLE_IDENTIFIER = info.ternes.weatherUI;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
